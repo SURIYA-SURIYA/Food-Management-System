@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <style>
+        .container{
+            max-width: 1200px;
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+   
+            
+        }
+        
+        .left{
+            width: 100%;
+            height: auto;
+        
+        }
+        .left h2{
+            color: white;
+            padding: 10px;
+
+        }
+        .right{
+            width:100%;
+            height: auto;
+    
+            
+        }
+        .left img{
+            height: 670px;
+        }
+    
+       .right p{
+        color: white;
+        margin: 10px;
+        padding: 10px;
+       height: 730px;
+       text-align: justify;
+       margin-left: 20px;
+       border: 2px solid #ff4757;
+       border-radius: 5px;
+
+    }
+
+    @media screen and (max-width:1200px){
+        #para{
+            height: auto;
+        }
+    }
+    
+
+     </style>
+
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="#" class="logo"> <ion-icon name="fast-food"></ion-icon>Surya's Chicken Foods</a>
+            <div class="box">
+                <div class="cart-count">0</div>
+                <ion-icon id="cart-icon" name="cart"></ion-icon>
+            </div>
+            <div class="cart">
+                <div class="cart-title">Cart Items</div>
+            <div class="cart-content">
+
+                <div class="cart-box">
+                    <img src=".\images\big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-food-title">Special Dosai</div>
+                        <div class="price-box">
+                            <div class="cart-price">Rs.72</div>
+                            <div class="cart-amt">Rs.72</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+
+                    </div>
+                    <ion-icon name="trash-outline" class="cart-remove"></ion-icon>
+                </div>
+
+                
+                <div class="cart-box">
+                    <img src=".\images\big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-food-title">Special Dosai</div>
+                        <div class="price-box">
+                            <div class="cart-price">Rs.72</div>
+                            <div class="cart-amt">Rs.72</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+
+                    </div>
+                    <ion-icon name="trash-outline" class="cart-remove"></ion-icon>
+                </div>
+                
+                
+            </div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">Rs.0</div>
+            </div>
+            <button class="btn-buy">Place Order</button>
+            <ion-icon name="close-circle-outline" id="cart-close"></ion-icon>
+            </div>
+        </div>
+    </header>
+        
+  
+    <div class="container">
+        <div class="left">
+            <h2>Indulge your taste buds in a world of chicken delights! </h2>
+           <img   src=".\images\delicious-burger-with-fresh-ingredients.jpg">
+        </div>
+        <div class="right">
+            <p id="para"
+            > Explore the world of chicken cuisine with a variety of mouthwatering dishes that cater to every palate. If you crave a healthy yet flavorful option, indulge in the succulence of Grilled Lemon Herb Chicken. Marinated in a tantalizing blend of zesty lemon, garlic, and fresh herbs, this dish not only satisfies your taste buds but also offers a lean protein option with a burst of vibrant seasoning.
+
+            For those who seek the nostalgic comfort of a timeless favorite, Classic Fried Chicken is a must-try. Crispy on the outside and tender on the inside, this dish relies on the perfect blend of spices in its crispy coating. Served with your choice of dipping sauce, it's a comforting delight that never goes out of style.
+            
+            Take your taste buds on a journey with the creamy richness of Chicken Alfredo Pasta. Juicy grilled chicken mingles with a velvety Alfredo sauce, generously coating perfectly cooked fettuccine. This dish seamlessly combines the savory goodness of chicken with the comforting allure of pasta, creating a symphony of flavors.
+            
+            For those who crave a spicy kick, Buffalo Chicken Wings are the ultimate choice. These crispy delights are coated in a tangy buffalo sauce, providing the perfect balance of heat and flavor. Paired with a cool ranch or blue cheese dressing, they make for an irresistible appetizer or a crowd-pleasing party snack.
+            
+            Opt for a lighter yet equally satisfying option with a Chicken Caesar Salad. Grilled chicken strips crown a bed of crisp romaine lettuce, tossed with Caesar dressing, Parmesan cheese, and croutons. This dish is a refreshing and nutritious choice that doesn't compromise on taste.
+            
+            If you're in the mood for a sweet and savory combination, try Honey Mustard Glazed Chicken. Chicken breasts are glazed with a luscious blend of honey and mustard, creating a caramelized exterior while keeping the meat tender and juicy. This dish is a delightful crowd-pleaser, perfect for family dinners or gatherings.
+            
+            For a quick and wholesome meal, consider the vibrant Chicken and Vegetable Stir-Fry. Packed with a medley of colorful veggies, tender chicken strips, and a savory stir-fry sauce, this dish is a speedy yet nutritious option that caters to both your craving for flavor and your commitment to a well-balanced meal. Dive into the diverse world of chicken dishes and savor the delectable possibilities that await your culinary exploration.</p>
+       </div>
+    </div>
+
+            <div class="footercontainer">
+                <div class="socialicons">
+                    <a href="contact.html"><ion-icon  id="i" name="person-circle-outline"></ion-icon></a>
+                    <a href="contact.html"><ion-icon id="i" name="logo-twitter"></ion-icon></a>
+                    <a href="contact.html"><ion-icon id="i" name="logo-instagram"></ion-icon></a>
+                </div>
+                <div class="footernav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerbottom">
+                <p>Copyright &copy;2023 Designed by<span class="designer">Suriya</span></p>
+            </div>
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
